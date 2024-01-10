@@ -1,8 +1,18 @@
+
+.page {
+  display: flex;
+  justify-content: center;
+ 
+}
+
 .head {
     background: #fc0;
     height: 100px;
+    display: flex;
     position: relative;
+    justify-content: center;
     width: 100px;
+    
   }
   .face {
     font-family: 'courier new', serif;
@@ -12,5 +22,7 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
+    display: flex;
+    justify-content: center;
+   
   }
-  
